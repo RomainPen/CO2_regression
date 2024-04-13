@@ -1,0 +1,41 @@
+- Read csv
+- Save ID
+- Fillna "Fuel consumption" by 0 if the car has an "electric range" > 0
+- Supprimer les colonnes avec 80% ou plus de valeurs manquantes
+- Fillna Categorical columns by mode (train) :
+- Drop useless col :
+- Fillna Num columns by la médiane (from the train dataset) 
+- target = df_train['Ewltp (g/km)']
+- OHE for cat var < 30
+- Count encoding cat var > 30
+- Split df_train to train/val
+
+- Modelling
+- Combinaison modelling
+- Predict on df_test and Submission 
+
+
+
+
+--------------------------------- Upgrade the project ------------------------------------
+- Read csv
+
+Prepare data :
+- Drop useless col
+- Supprimer les colonnes avec 80% ou plus de valeurs manquantes
+- Fillna "Fuel consumption" by 0 if the car has an "electric range" > 0
+- Split df_train to train/val
+
+Modelling :
+- Fillna Categorical columns by mode (train) 
+- Fillna Num columns by la médiane (from the train dataset)
+- OHE for cat var < 30
+- Count encoding cat var > 30
+- Training
+
+Predict :
+- Pre-process df_test
+- Predict on df_test
+
+
+
